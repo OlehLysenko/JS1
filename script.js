@@ -48,8 +48,7 @@ const personalMovieDB = {
         }
     },
     writeYourGenres : () => {
-        for (let i = 0; i < 3; i++) {
-            
+        for (let i = 0; i < 3; i++) {            
             do {
                 personalMovieDB.genres[i] = prompt(`Ваш любимый жанр под номером ${i+1}`, "")
             }
